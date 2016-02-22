@@ -114,3 +114,6 @@ Before you start to code, we recommend discussing your plans through a GitHub is
 
 Current development is led by Fabiano Menegidio.
 
+### Cite as
+
+Menegidio, F.B.. (2016). Docker Taverna Workbench 1.0. Zenodo. 10.5281/zenodo.46411
