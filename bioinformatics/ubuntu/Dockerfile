@@ -7,8 +7,9 @@ RUN apt-get install graphviz -y
 WORKDIR /root/
 
 ### Install Java Cryptography Extension
-RUN wget http://download.oracle.com/otn-pub/java/jce/8/jce_policy-8.zip
-RUN gunzip /root/jce_policy-8.zip
+RUN wget -c --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com" \
+    http://download.oracle.com/otn-pub/java/jce/8/jce_policy-8.zip -O jce_policy-8.zip
+RUN unzip /root/jce_policy-8.zip
 RUN rm /root/jce_policy-8.zip
 RUN mv /root/UnlimitedJCEPolicyJDK8/* /usr/lib/jvm/java-8-opendjk-amd64/jre/lib/security/
 RUN rm -rf /root/UnlimitedJCEPolicyJDK8/
