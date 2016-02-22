@@ -32,13 +32,13 @@ Taverna Workbench Bioinformatics is an edition of Taverna Workbench that include
 
 Taverna Workbench Bioinformatics is equivalent to the Taverna Workbench Core bundled with BioMart, BioMoby, SoapLab and API Consumer plugins.
 
-Pull a Taverna Workbench Core container:
+Pull a Taverna Workbench Bioinformatics container:
 
 ```bash
 docker pull bigscience/taverna-workbench:bioinformatic
 ```
 
-Start a Taverna Workbench Core container:
+Start a Taverna Workbench Bioinformatics container:
 
 ```bash
 docker run -d -p 5901:5901 -p 6901:6901 \
@@ -56,13 +56,13 @@ Deep data inspection and visualisation of results is possible using local connec
 
 Taverna Workbench Astronomy is equivalent to the Taverna Workbench Core (distributed under LGPL 2.1 license) bundled with the plugins AstroTaverna and VAMDC (distributed under the open source license GPL 3).
 
-Pull a Taverna Workbench Core container:
+Pull a Taverna Workbench Astronomy container:
 
 ```bash
 docker pull bigscience/taverna-workbench:astronomy
 ```
 
-Start a Taverna Workbench Core container:
+Start a Taverna Workbench Astronomy container:
 
 ```bash
 docker run -d -p 5901:5901 -p 6901:6901 \
@@ -80,13 +80,13 @@ This edition includes support for service types such as REST Web services, WebDA
 
 Taverna Workbench Biodiversity is equivalent to the Core edition bundled with the plugins for the Service Catalogue and WebDAV.
 
-Pull a Taverna Workbench Core container:
+Pull a Taverna Workbench Biodiversity container:
 
 ```bash
 docker pull bigscience/taverna-workbench:biodiversity
 ```
 
-Start a Taverna Workbench Core container:
+Start a Taverna Workbench Biodiversity container:
 
 ```bash
 docker run -d -p 5901:5901 -p 6901:6901 \
