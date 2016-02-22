@@ -1,6 +1,12 @@
 # Docker Taverna Workbench
 
-Taverna Workbench enables you to graphically create, edit and run workflows on your computer.
+Docker Taverna Workbench is the junction of two softwares:
+
+***Taverna Workbench*** enables you to graphically create, edit and run workflows on your computer.
+
+***Docker*** is an open-source project that automates the deployment of applications inside software containers, by providing an additional layer of abstraction and automation of operating-system-level virtualization on Linux. Docker uses the resource isolation features of the Linux kernel such as cgroups and kernel namespaces, and a union-capable filesystem such as aufs and others to allow independent "containers" to run within a single Linux instance, avoiding the overhead of starting and maintaining virtual machines.
+
+
 
 ### Taverna Workbench Bioinformatics
 
