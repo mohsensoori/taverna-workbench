@@ -24,7 +24,7 @@ docker run -d -p 5901:5901 -p 6901:6901 \
 bigscience/taverna-workbench:core
 ```
 
-![Taverna](http://i.imgur.com/r9LdKlx.png)
+![Taverna](http://i.imgur.com/TNHMZCn.png)
 
 ### Taverna Workbench Bioinformatics
 
@@ -70,7 +70,7 @@ docker run -d -p 5901:5901 -p 6901:6901 \
 bigscience/taverna-workbench:astronomy
 ```
 
-![Taverna](http://i.imgur.com/r9LdKlx.png)
+![Taverna](http://i.imgur.com/qjjJnJO.png)
 
 ### Taverna Workbench Biodiversity
 
@@ -94,7 +94,7 @@ docker run -d -p 5901:5901 -p 6901:6901 \
 bigscience/taverna-workbench:biodiversity
 ```
 
-![Taverna](http://i.imgur.com/r9LdKlx.png)
+![Taverna](http://i.imgur.com/0HKb7ao.png)
 
 ### Docker container
 
