@@ -10,11 +10,39 @@ Docker Taverna Workbench is the junction of two softwares:
 
 Taverna Workbench Core is an edition of Taverna that includes support for building and executing scientific workflows using general service types, such as WSDL and REST web services, command line tools and scripts (R, Beanshell), user interactions, including support for general data formats like XML and spreadsheets. Other editions of Taverna Workbench extend the Core edition to also include domain-specific service supports and other customizations.
 
+Pull a Taverna Workbench Core container:
+
+```bash
+docker pull bigscience/biodesktop:centos
+```
+
+Start a Taverna Workbench Core container:
+
+```bash
+docker run -d -p 5901:5901 -p 6901:6901 \
+--name biodesktop-ubuntu -h biodesktop-ubuntu \
+bigscience/biodesktop:ubuntu
+```
+
 ### Taverna Workbench Bioinformatics
 
 Taverna Workbench Bioinformatics is an edition of Taverna Workbench that includes support for building and executing bioinformatics workflows using bioinformatics data and analytical services such as BioMart and BioMoby.
 
 Taverna Workbench Bioinformatics is equivalent to the Taverna Workbench Core bundled with BioMart, BioMoby, SoapLab and API Consumer plugins.
+
+Pull a Taverna Workbench Core container:
+
+```bash
+docker pull bigscience/biodesktop:centos
+```
+
+Start a Taverna Workbench Core container:
+
+```bash
+docker run -d -p 5901:5901 -p 6901:6901 \
+--name biodesktop-ubuntu -h biodesktop-ubuntu \
+bigscience/biodesktop:ubuntu
+```
 
 ### Taverna Workbench Astronomy
 
@@ -24,6 +52,20 @@ Deep data inspection and visualisation of results is possible using local connec
 
 Taverna Workbench Astronomy is equivalent to the Taverna Workbench Core (distributed under LGPL 2.1 license) bundled with the plugins AstroTaverna and VAMDC (distributed under the open source license GPL 3).
 
+Pull a Taverna Workbench Core container:
+
+```bash
+docker pull bigscience/biodesktop:centos
+```
+
+Start a Taverna Workbench Core container:
+
+```bash
+docker run -d -p 5901:5901 -p 6901:6901 \
+--name biodesktop-ubuntu -h biodesktop-ubuntu \
+bigscience/biodesktop:ubuntu
+```
+
 ### Taverna Workbench Biodiversity
 
 Taverna Workbench Biodiversity is an edition of Taverna that includes support for building and executing scientific workflows targetting biodiversity services.
@@ -31,6 +73,20 @@ Taverna Workbench Biodiversity is an edition of Taverna that includes support fo
 This edition includes support for service types such as REST Web services, WebDAV servers, command line tools, scripts and user interactions, and adds integration with the BiodiversityCatalogue. Taverna Workbench Biodiversity is used by projects like BioVeL, which provide the BioVeL Portal for Web execution of Taverna biodiversity workflows.
 
 Taverna Workbench Biodiversity is equivalent to the Core edition bundled with the plugins for the Service Catalogue and WebDAV.
+
+Pull a Taverna Workbench Core container:
+
+```bash
+docker pull bigscience/biodesktop:centos
+```
+
+Start a Taverna Workbench Core container:
+
+```bash
+docker run -d -p 5901:5901 -p 6901:6901 \
+--name biodesktop-ubuntu -h biodesktop-ubuntu \
+bigscience/biodesktop:ubuntu
+```
 
 ### Docker container
 
