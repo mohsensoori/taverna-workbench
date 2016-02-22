@@ -19,13 +19,10 @@ RUN wget https://bitbucket.org/taverna/taverna-workbench-product/downloads/taver
 RUN unzip taverna-workbench-bioinformatics-2.5.0-standalone.zip
 RUN rm taverna-workbench-bioinformatics-2.5.0-standalone.zip
 
-
+RUN echo "/root/taverna-workbench-bioinformatics-2.5.0/taverna.sh >> /root/scripts/vnc_startup.sh
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ENTRYPOINT ["/root/scripts/vnc_startup.sh"]
 CMD ["--tail-log"]
-
-WORKDIR /root/taverna-workbench-bioinformatics-2.5.0/
-CMD ['/root/taverna-workbench-bioinformatics-2.5.0/taverna.sh']
