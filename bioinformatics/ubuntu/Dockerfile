@@ -25,3 +25,6 @@ WORKDIR /root/taverna-workbench-bioinformatics-2.5.0/
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 CMD ['taverna.sh']
+
+ENTRYPOINT ["/root/scripts/vnc_startup.sh"]
+CMD ["--tail-log"]
