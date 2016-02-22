@@ -6,7 +6,9 @@ Docker Taverna Workbench is the junction of two softwares:
 
 ***Docker*** is an open-source project that automates the deployment of applications inside software containers, by providing an additional layer of abstraction and automation of operating-system-level virtualization on Linux. Docker uses the resource isolation features of the Linux kernel such as cgroups and kernel namespaces, and a union-capable filesystem such as aufs and others to allow independent "containers" to run within a single Linux instance, avoiding the overhead of starting and maintaining virtual machines.
 
+### Taverna Workbench Core
 
+Taverna Workbench Core is an edition of Taverna that includes support for building and executing scientific workflows using general service types, such as WSDL and REST web services, command line tools and scripts (R, Beanshell), user interactions, including support for general data formats like XML and spreadsheets. Other editions of Taverna Workbench extend the Core edition to also include domain-specific service supports and other customizations.
 
 ### Taverna Workbench Bioinformatics
 
@@ -30,9 +32,13 @@ This edition includes support for service types such as REST Web services, WebDA
 
 Taverna Workbench Biodiversity is equivalent to the Core edition bundled with the plugins for the Service Catalogue and WebDAV.
 
-### Taverna Workbench Core
+### Contributing
 
-Taverna Workbench Core is an edition of Taverna that includes support for building and executing scientific workflows using general service types, such as WSDL and REST web services, command line tools and scripts (R, Beanshell), user interactions, including support for general data formats like XML and spreadsheets. Other editions of Taverna Workbench extend the Core edition to also include domain-specific service supports and other customizations.
+You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
 
-Taverna Workbench Core is distributed under the open source license LGPL 2.1.
+Before you start to code, we recommend discussing your plans through a GitHub issue, especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.
+
+### Author
+
+Current development is led by Fabiano Menegidio.
 
