@@ -1,3 +1,5 @@
+![Taverna](https://zenodo.org/badge/20420/menegidio/taverna-workbench.svg)
+
 # Docker Taverna Workbench
 
 Docker Taverna Workbench is the junction of two softwares:
