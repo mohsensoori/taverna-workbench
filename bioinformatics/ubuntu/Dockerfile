@@ -11,8 +11,8 @@ RUN curl -v -j -k -L -H "Cookie:oraclelicense=accept-securebackup-cookie" \
     http://download.oracle.com/otn-pub/java/jce/8/jce_policy-8.zip  > jce_policy-8.zip
 RUN unzip /root/jce_policy-8.zip
 RUN rm /root/jce_policy-8.zip
-RUN cp /root/UnlimitedJCEPolicyJDK8/* /usr/lib/jvm/jdk1.8.0-openjdk-amd64/jre/lib/security/
-RUN cp /root/UnlimitedJCEPolicyJDK8/* /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/security/
+RUN cp -R /root/UnlimitedJCEPolicyJDK8/* /usr/lib/jvm/jdk1.8.0-openjdk-amd64/jre/lib/security/
+RUN cp -R /root/UnlimitedJCEPolicyJDK8/* /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/security/
 RUN rm -rf /root/UnlimitedJCEPolicyJDK8/
 
 ### Install Taverna Workbench
