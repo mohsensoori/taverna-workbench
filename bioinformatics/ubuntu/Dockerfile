@@ -21,6 +21,8 @@ RUN wget https://bitbucket.org/taverna/taverna-workbench-product/downloads/taver
 RUN unzip taverna-workbench-bioinformatics-2.5.0-standalone.zip
 RUN rm taverna-workbench-bioinformatics-2.5.0-standalone.zip
 RUN mv /root/Desktop/taverna-workbench-bioinformatics-2.5.0/ /root/Desktop/taverna-workbench/
+RUN chmod +x /root/Desktop/taverna-workbench/taverna.sh
+RUN ln -s /root/Desktop/taverna-workbench/taverna.sh taverna
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
