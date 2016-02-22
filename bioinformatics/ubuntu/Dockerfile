@@ -15,7 +15,7 @@ RUN rm -rf /root/UnlimitedJCEPolicyJDK8/
 
 ### Install Taverna Workbench
 RUN wget https://bitbucket.org/taverna/taverna-workbench-product/downloads/taverna-workbench-bioinformatics-2.5.0-standalone.zip
-RUN unzip taverna-workbench-bioinformatics-2.5.0-standalone.zip
+RUN gunzip taverna-workbench-bioinformatics-2.5.0-standalone.zip
 RUN rm taverna-workbench-bioinformatics-2.5.0-standalone.zip
 
 WORKDIR /root/taverna-workbench-bioinformatics-2.5.0/
