@@ -14,12 +14,13 @@ RUN rm /root/jce_policy-8.zip
 RUN cp -R /root/UnlimitedJCEPolicyJDK8/* /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/security/
 RUN rm -rf /root/UnlimitedJCEPolicyJDK8/
 
+WORKDIR /root/Desktop
+
 ### Install Taverna Workbench
 RUN wget https://bitbucket.org/taverna/taverna-workbench-product/downloads/taverna-workbench-bioinformatics-2.5.0-standalone.zip
 RUN unzip taverna-workbench-bioinformatics-2.5.0-standalone.zip
 RUN rm taverna-workbench-bioinformatics-2.5.0-standalone.zip
-
-RUN echo "/root/taverna-workbench-bioinformatics-2.5.0/taverna.sh" >> /root/scripts/vnc_startup.sh
+RUN mv /root/Desktop/taverna-workbench-bioinformatics-2.5.0/ /root/Desktop/taverna-workbench/
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
