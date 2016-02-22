@@ -32,6 +32,12 @@ This edition includes support for service types such as REST Web services, WebDA
 
 Taverna Workbench Biodiversity is equivalent to the Core edition bundled with the plugins for the Service Catalogue and WebDAV.
 
+### Docker container
+
+Docker Taverna Workbench use container BioDesktop Ubuntu. 
+
+[BioDesktop](https://hub.docker.com/r/bigscience/biodesktop/) is a Linux container specifically designed for enabling open science. It is a free and open source operating system based on Ubuntu 15.10 and CentOs 7.2. BioDesktop is the junction of two softwares: Docker container and a Linux operating system.
+
 ### Contributing
 
 You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
