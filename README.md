@@ -13,15 +13,15 @@ Taverna Workbench Core is an edition of Taverna that includes support for buildi
 Pull a Taverna Workbench Core container:
 
 ```bash
-docker pull bigscience/biodesktop:centos
+docker pull bigscience/taverna-workbench:core
 ```
 
 Start a Taverna Workbench Core container:
 
 ```bash
 docker run -d -p 5901:5901 -p 6901:6901 \
---name biodesktop-ubuntu -h biodesktop-ubuntu \
-bigscience/biodesktop:ubuntu
+--name taverna-workbench-core -h taverna-workbench-core \
+bigscience/taverna-workbench:core
 ```
 
 ![Taverna](http://i.imgur.com/r9LdKlx.png)
@@ -35,15 +35,15 @@ Taverna Workbench Bioinformatics is equivalent to the Taverna Workbench Core bun
 Pull a Taverna Workbench Core container:
 
 ```bash
-docker pull bigscience/biodesktop:centos
+docker pull bigscience/taverna-workbench:bioinformatic
 ```
 
 Start a Taverna Workbench Core container:
 
 ```bash
 docker run -d -p 5901:5901 -p 6901:6901 \
---name biodesktop-ubuntu -h biodesktop-ubuntu \
-bigscience/biodesktop:ubuntu
+--name taverna-workbench-bioinformatic -h taverna-workbench-bioinformatic \
+bigscience/taverna-workbench:bioinformatic
 ```
 
 ![Taverna](http://i.imgur.com/XRF1MBE.png)
@@ -59,15 +59,15 @@ Taverna Workbench Astronomy is equivalent to the Taverna Workbench Core (distrib
 Pull a Taverna Workbench Core container:
 
 ```bash
-docker pull bigscience/biodesktop:centos
+docker pull bigscience/taverna-workbench:astronomy
 ```
 
 Start a Taverna Workbench Core container:
 
 ```bash
 docker run -d -p 5901:5901 -p 6901:6901 \
---name biodesktop-ubuntu -h biodesktop-ubuntu \
-bigscience/biodesktop:ubuntu
+--name taverna-workbench-astronomy -h taverna-workbench-astronomy \
+bigscience/taverna-workbench:astronomy
 ```
 
 ![Taverna](http://i.imgur.com/r9LdKlx.png)
@@ -83,15 +83,15 @@ Taverna Workbench Biodiversity is equivalent to the Core edition bundled with th
 Pull a Taverna Workbench Core container:
 
 ```bash
-docker pull bigscience/biodesktop:centos
+docker pull bigscience/taverna-workbench:biodiversity
 ```
 
 Start a Taverna Workbench Core container:
 
 ```bash
 docker run -d -p 5901:5901 -p 6901:6901 \
---name biodesktop-ubuntu -h biodesktop-ubuntu \
-bigscience/biodesktop:ubuntu
+--name taverna-workbench-biodiversity -h taverna-workbench-biodiversity \
+bigscience/taverna-workbench:biodiversity
 ```
 
 ![Taverna](http://i.imgur.com/r9LdKlx.png)
