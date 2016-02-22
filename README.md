@@ -2,7 +2,7 @@
 
 Docker Taverna Workbench is the junction of two softwares:
 
-***Taverna Workbench*** enables you to graphically create, edit and run workflows on your computer.
+***Apache Taverna*** is an open source software tool for designing and executing workflows, initially created by the myGrid project under the name ***Taverna Workbench***, now a project under the Apache incubator. Taverna allows users to integrate many different software components, including WSDL SOAP or REST Web services, such as those provided by the National Center for Biotechnology Information, the European Bioinformatics Institute, the DNA Databank of Japan (DDBJ), SoapLab, BioMOBY and EMBOSS. The set of available services is not finite and users can import new service descriptions into the Taverna Workbench.
 
 ***Docker*** is an open-source project that automates the deployment of applications inside software containers, by providing an additional layer of abstraction and automation of operating-system-level virtualization on Linux. Docker uses the resource isolation features of the Linux kernel such as cgroups and kernel namespaces, and a union-capable filesystem such as aufs and others to allow independent "containers" to run within a single Linux instance, avoiding the overhead of starting and maintaining virtual machines.
 
